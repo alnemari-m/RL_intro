@@ -54,5 +54,25 @@ discrate-envromnemt
 in python you need like history
 you can do this using python dictonary 
 
+### algorthim 
+* initialize Q for all states s and actions a 
+* initilize aplph = 0.001, gamma = 0.9, epslion_max=1.0
+epslion_min = 0.01
+  * repeat for n_epsiodes 
+  s = 0 
+    for step of epsiode 
+    select with epsilion greedy 
+    perform a, get new sates s and reward r 
+    q(s,a) = q(s,a)+alpha(r_gamma_max Q(s',a_max)-Q(s,a))
+    s = s'
+
+### how to code this ?? 
+using class for agent (q table, )
+
+q is dictonary 
+epsilon decrease 
+plot for 100 games
+
+
 
 
